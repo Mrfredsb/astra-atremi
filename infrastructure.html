@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructure | Astra Artemis</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #111111;
+            --accent-color: #555555;
+            --border-color: #e0e0e0;
+            --light-bg: #f9f9f9;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        nav a:hover, nav a.active {
+            color: var(--accent-color);
+        }
+        .container {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            letter-spacing: -0.5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .card {
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            background-color: var(--light-bg);
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--accent-color);
+            margin-top: 8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">ASTRA ARTEMIS</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="infrastructure.html" class="active">Infrastructure</a>
+            <a href="services.html">Technical Services</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Engineered for Absolute Control</h2>
+        <p>To deliver flawless data models and ensure total bio-containment, our laboratory facility has been engineered around rigorous, non-negotiable physical and structural specifications.</p>
+        
+        <div class="grid">
+            <div class="card">
+                <h3>High-Capacity Power Distribution</h3>
+                <p>Our operational deployment areas are equipped with a dedicated, heavy-duty 3-phase power supply. This framework is structurally critical to sustain the stable, continuous high-capacity electrical draws required by our commercial HVAC setups and automated diagnostics instrumentation arrays.</p>
+            </div>
+            
+            <div class="card">
+                <h3>UKAS-Compliant Fluid Management</h3>
+                <p>Advanced, high-flow mains water connections feed directly into our UKAS-compliant multi-stage reverse osmosis purification networks. Crucially, all operational trade effluent discharges entirely into local mains foul sewer systems to handle specialised fluid throughput safely.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Environmental Isolation & Access Control</h3>
+                <p>Maintaining a perfect baseline requires uncompromised security. Our perimeters utilise high-level steel door upgrades and advanced biometric access points. These frameworks serve a dual structural mandate: delivering robust physical asset isolation and providing air-tight micro-climate environmental sealing.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Astra Artemis Ltd. All rights reserved. Registered in England & Wales. Company Registration Number: 17207705.</p>
+    </footer>
+
+</body>
+</html>
