@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Services | Astra Artemis</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #111111;
+            --accent-color: #555555;
+            --border-color: #e0e0e0;
+            --light-bg: #f9f9f9;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        nav a:hover, nav a.active {
+            color: var(--accent-color);
+        }
+        .container {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            letter-spacing: -0.5px;
+        }
+        .service-block {
+            margin-bottom: 4rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .service-block:last-child {
+            border-bottom: none;
+        }
+        .service-block h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--text-color);
+            color: var(--bg-color);
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-top: 1rem;
+            border: 1px solid var(--text-color);
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            background-color: transparent;
+            color: var(--text-color);
+        }
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--accent-color);
+            margin-top: 8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">ASTRA ARTEMIS</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="infrastructure.html">Infrastructure</a>
+            <a href="services.html" class="active">Technical Services</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Specialised R&D Processing & Diagnostics</h2>
+        <p>Astra Artemis coordinates targeted, resource-heavy technical services for industry partners on standard 30-day corporate terms. Our testing facility manages complex workloads under absolute parameters.</p>
+        
+        <div class="service-block">
+            <h3>Controlled Environment Agriculture (CEA) Stress Testing</h3>
+            <p>We provide isolated environmental diagnostics bays where clients can test the precise biological thresholds of their agricultural properties. Utilising high-capacity environmental controls, we simulate extreme adjustments in photoperiod cycles, relative humidity parameters, and thermal thresholds to gather highly calibrated performance data.</p>
+        </div>
+
+        <div class="service-block">
+            <h3>UKAS-Compliant Resource Processing</h3>
+            <p>Our facility offloads resource-heavy testing processes from your internal staff. We manage intense high-power configurations and advanced water purification throughput required for multi-stage botanical extraction diagnostics, executing high-spec analytics in a fraction of standard lead times.</p>
+        </div>
+
+        <div class="service-block">
+            <h3>Bio-Containment & Environmental Isolation</h3>
+            <p>For sensitive, high-stakes research demands requiring total air filtration and zero ambient contamination cross-over, our sealed internal containment zones offer a secure environment. Our infrastructure incorporates heavy-duty structural dampening to ensure full operational noise and vibration mitigation, keeping our operations compliant with estate boundaries.</p>
+            <a href="mailto:fred@astra-artemis.com?subject=Technical Service Allocation Request" class="btn">Request Service Level Allocation</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Astra Artemis Ltd. All rights reserved. Registered in England & Wales. Company Registration Number: 17207705.</p>
+    </footer>
+
+</body>
+</html>
